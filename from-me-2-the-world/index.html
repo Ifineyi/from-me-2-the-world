@@ -725,7 +725,7 @@
   const contactItems=[
     { label:TOP[0].aux, href:'mailto:'+TOP[0].aux, text:'email' },
     { label:TOP[1].aux, href:'https://'+TOP[1].aux, text:'github' },
-    { label:TOP[2].aux, href:'https://'+TOP[2].aux, text:'linkedin' },
+    {  label: 'Abolade on LinkedIn', href: 'https://linkedin.com/in/abolade-k-248188203', text: 'linkedin'  },
     { label:TOP[8].aux, href:'https://'+TOP[8].aux, text:'x' }
   ];
   contactItems.forEach(c=>{ const a=document.createElement('a'); a.className='contact-link'; a.href=c.href; a.target='_blank'; a.rel='noopener'; a.innerHTML='<span class="dot"></span>'+c.label; addRV(a); cRow.appendChild(a); });
